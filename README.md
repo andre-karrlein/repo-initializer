@@ -4,10 +4,22 @@ TODO
 
 ## Getting Started
 
+You need to download the binary and move it in your empty repository.
 You can start it with this command:
 
 ```
-./init
+./repo-init
+```
+## Development
+
+To build the binary from source,
+local:
+```
+make build
+```
+inside a docker container:
+```
+make build-docker
 ```
 
 ## Versioning
